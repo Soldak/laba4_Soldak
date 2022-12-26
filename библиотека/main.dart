@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
   void launchGit() async {
-    final Uri urll = Uri(scheme: "https", host: "github.com", path:"/Artur-Fatulaev/Komponovka_Artur");
+    final Uri urll = Uri(scheme: "https", host: "github.com", path:"/Soldak/laba4_Soldak");
     if (!await launchUrl(urll, mode: LaunchMode.externalApplication)) {
       throw "Error";
     }
